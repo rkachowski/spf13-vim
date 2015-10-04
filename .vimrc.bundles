@@ -110,7 +110,10 @@
             Bundle 'ctrlpvim/ctrlp.vim'
             Bundle 'tacahiroy/ctrlp-funky'
             Bundle 'kristijanhusak/vim-multiple-cursors'
+            Bundle 'junegunn/seoul256.vim'
+            Bundle 'spf13/vim-autoclose'
             Bundle 'vim-scripts/sessionman.vim'
+            Plugin 'mattn/emmet-vim'
             Bundle 'matchit.zip'
             if (has("python") || has("python3")) && exists('g:spf13_use_powerline') && !exists('g:spf13_use_old_powerline')
                 Bundle 'Lokaltog/powerline', {'rtp':'/powerline/bindings/vim'}
@@ -188,13 +191,6 @@
         endif
     " }
 
-    " PHP {
-        if count(g:spf13_bundle_groups, 'php')
-            Bundle 'spf13/PIV'
-            Bundle 'arnaud-lb/vim-php-namespace'
-            Bundle 'beyondwords/vim-twig'
-        endif
-    " }
 
     " Python {
         if count(g:spf13_bundle_groups, 'python')
